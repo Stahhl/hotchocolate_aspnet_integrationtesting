@@ -1,0 +1,7 @@
+﻿mutation addBookMutation($input: AddBookInput!) {
+  addBook(input: $input) {
+    bookEntity {
+      id
+    }
+  }
+}
